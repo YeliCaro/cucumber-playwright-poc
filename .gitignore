@@ -1,0 +1,39 @@
+# Dependencias
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Archivos de entorno (si usas .env para claves API, etc.)
+.env
+.env.*
+!.env.example
+
+# Playwright / Reportes / Screenshots (ajusta según necesites)
+playwright-report/
+test-results/
+screenshots/ # Añade esto si no quieres subir las capturas de fallo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs (opcional)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de build (si aplicara)
+dist/
+build/
+coverage/
