@@ -1,4 +1,3 @@
-# NO necesitas # language: en, porque inglés es el default
 Feature: Simple Google Search
 
   Scenario: Search for a specific word on Google
